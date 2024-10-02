@@ -66,3 +66,7 @@ fun check() {
         OutlinedTextField(value = "hello", onValueChange = {})
         Text(text = "Hello, Lava here")
     }}
+@Composable
+fun git(){
+    Text(text = "hoo")
+}
