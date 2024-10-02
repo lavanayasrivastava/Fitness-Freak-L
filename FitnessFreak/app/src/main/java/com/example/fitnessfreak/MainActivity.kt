@@ -30,6 +30,7 @@ class MainActivity : ComponentActivity() {
                         modifier = Modifier.padding(innerPadding)
                     )
                 viewer()
+                    check()
                 }
             }
         }
@@ -58,3 +59,10 @@ fun viewer() {
         OutlinedTextField(value = "hello", onValueChange = {})
         Text(text = "Hello, this a 7-min workout app")
 }}
+
+@Composable
+fun check() {
+    Column(){
+        OutlinedTextField(value = "hello", onValueChange = {})
+        Text(text = "Hello, Lava here")
+    }}
